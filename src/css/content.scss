@@ -1,0 +1,78 @@
+.selector {
+  width: 100%;
+  text-align: center;
+  select {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    background-color: white;
+    border-radius: 0;
+    border: 1px solid #007dc3;
+    outline: none;
+  }
+}
+
+.product {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.item {
+  display: block;
+
+  &-name {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  &-supplier {
+    margin-bottom: 1rem;
+    img {
+      width: 4rem;
+    }
+  }
+
+  &-dailyPrice {
+    font-size: 1.4rem;
+  }
+
+  &-price {
+    color: #444;
+    margin: 0.5rem 0;
+  }
+
+  &-deepLink {
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 1rem 0 2rem 0;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: #007dc3;
+    }
+  }
+
+  &-features {
+    padding: 1rem 0;
+    b {
+      display: block;
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      display: block;
+      padding: 1rem;
+      &:nth-child(even) {
+        background-color: #eee;
+      }
+    }
+  }
+
+}

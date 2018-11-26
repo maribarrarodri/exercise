@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #007dc3 0%,#0B2343 100%);
+  color: white;
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    margin: 0.5rem;
+  }
+}
+
+.content {
+  width: 100%;
+  min-height: 82vh;
+  background-color: white;
+}
+
+.footer {
+  width: 100%;
+  font-size: 0.8rem;
+  background-color: #222;
+  color: whitesmoke;
+  text-align: center;
+  padding: 1rem;
+}
