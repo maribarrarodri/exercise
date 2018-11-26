@@ -16,7 +16,7 @@ Proyecto creado con [Create React App](https://github.com/facebook/create-react-
 - Funcionalidad con JS `6 horas`
 - Estilos con CSS `4 horas`
 - Corrección de bugs `4 horas`
-- Configuración de GIT y publicación del sitio `2 hora`
+- Configuración de GIT y publicación del sitio `2 horas`
 
 ## Sitios de apoyo
 - [Documentación React](https://reactjs.org/docs/create-a-new-react-app.html)
